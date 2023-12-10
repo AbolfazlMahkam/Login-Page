@@ -58,7 +58,7 @@
 }
 img{
     text-align: center;
-    left: 170px;
+    left: 26%;
     top: 150px;
     position: absolute;
 }
@@ -160,7 +160,7 @@ h6{
         width: 100%;
     }
     img{
-        left: 20px;
+        
     }
     .login-form{
         width: 100%;
