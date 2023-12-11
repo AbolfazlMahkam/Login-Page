@@ -29,7 +29,7 @@ body{
     min-height: 100%;
     height: 100%;
     background: rgb(0,166,182);
-    background: linear-gradient(180deg, rgba(0,166,182,1) 55%, rgba(0,106,122,1) 57%);
+    background: linear-gradient(180deg, rgba(0,166,182,1) 50%, rgba(0,106,122,1) 52%);
     padding: 0 20px;
 }
 .lt,
