@@ -187,6 +187,8 @@ h6{
     }
     .left{
         width: 100%;
+        background: rgb(0,166,182);
+        background: linear-gradient(180deg, rgba(0,166,182,1) 47%, rgba(0,106,122,1) 49%);
     }
     img{
         width: 350px;
@@ -204,8 +206,39 @@ h6{
     font-size: 25px;
     }
 }
+@media (max-width: 400px){
+    .login-form{
+        padding: 50px 30px;
+    }
+    .left{
+        background: rgb(0,166,182);
+        background: linear-gradient(180deg, rgba(0,166,182,1) 49%, rgba(0,106,122,1) 51%);
+    }
+    .img{
+        width: 300px;
+    }
+    .lt,
+    .sga,
+    .by,
+    .pa{
+    font-size: 18px;
+    }
+}
 @media (max-width: 300px){
     .login-form{
         padding: 50px 30px;
+    }
+    .left{
+        background: rgb(0,166,182);
+        background: linear-gradient(180deg, rgba(0,166,182,1) 40%, rgba(0,106,122,1) 42%);
+    }
+    .img{
+        width: 200px;
+    }
+    .lt,
+    .sga,
+    .by,
+    .pa{
+    font-size: 18px;
     }
 }
