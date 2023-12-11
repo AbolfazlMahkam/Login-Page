@@ -24,12 +24,12 @@ body{
 .container-fluid{
     box-shadow: 2px 2px 9px #aaa;
 }
-.right{
+.left{
     display: inline-block;
     min-height: 100%;
     height: 100%;
     background: rgb(0,166,182);
-    background: linear-gradient(180deg, rgba(0,166,182,1) 50%, rgba(0,106,122,1) 52%);
+    background: linear-gradient(180deg, rgba(0,166,182,1) 64%, rgba(0,106,122,1) 66%);
     padding: 0 20px;
 }
 .lt,
@@ -154,8 +154,10 @@ h6{
     .dg{
         padding: 0 10px;
     }
-    .col-8{
+    .left{
         width: 100%;
+        background: rgb(0,166,182);
+        background: linear-gradient(180deg, rgba(0,166,182,1) 50%, rgba(0,106,122,1) 52%);
     }
     img{
         width: 350px;
@@ -183,7 +185,7 @@ h6{
     .dg{
         padding: 0 10px;
     }
-    .col-8{
+    .left{
         width: 100%;
     }
     img{
